@@ -1,5 +1,8 @@
 # 🧼 Daily Comic App – SP Karma Oracle Generator
 
+In It, Lee** is a satire-powered comic engine that delivers daily Agile-inspired panels, punchlines, and prophecies.  
+You’ll receive a daily comic, an SP Karma score, and an oracle message—all designed to reflect the emotional truth of modern software teams.
+
 ## Project Codename
 
 **"In It, Lee."**
@@ -311,3 +314,40 @@ Only then may they proceed to Retro Station, where everyone’s past sprint sins
 * 💌 Create mailing list + first 7-day sample run
 
 > *The backlog was never meant to be cleared. It was meant to become legend.*
+
+
+## 🚀 Getting Started
+
+```bash
+yarn install
+yarn dev
+```
+
+
+## ⚙️ Tech Stack
+
+- [Next.js 13+](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Yarn Berry](https://yarnpkg.com/getting-started/install)
+- Optional: Supabase, Resend, Slack integration
+
+## Project Structure
+app/
+page.tsx               # Home page
+bless/page.tsx         # Ritual input form
+team/page.tsx          # Team blessing CTA
+components/
+ComicPanel.tsx         # Comic display component
+OracleMessage.tsx      # Rotating oracle quote
+lib/
+oracle.ts              # Oracle message list
+public/images/
+sample-comic.png       # Placeholder comic
+
+
+📌 Roadmap
+•	Add comic archive and character filters
+•	Enable Slack team integration
+•	Add Resend/Supabase for daily email drops
+•	Build Retro Bundle comic generator
+•	Expand archetype system (Scrub Maiden, Lee, etc.)
