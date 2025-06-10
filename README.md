@@ -1,320 +1,191 @@
-# 🧼 Daily Comic App – SP Karma Oracle Generator
+# 🧼 In It, Lee – SP Karma Oracle Generator
 
-In It, Lee** is a satire-powered comic engine that delivers daily Agile-inspired panels, punchlines, and prophecies.  
-You’ll receive a daily comic, an SP Karma score, and an oracle message—all designed to reflect the emotional truth of modern software teams.
-
-## Project Codename
-
-**"In It, Lee."**
-*Alternative names:* The Definition of Done, Ticket, Again., Resource, Standup, Backlog
-
-## Vision
-
-A satirical, spiritually chaotic, comic-strip experience delivered daily to Agile/tech teams and individual contributors. Merges humor, prophecy, workplace absurdity, and myth-building to turn everyday sprints into divinely-inspired epics.
-
-> *“Where the definition of done… is to begin again.”*
+> *The daily comic oracle for the spiritually sprint-fatigued.*
 
 ---
 
-## README Format Overview
+## 👀 What Is This?
 
-### 📘 What Is This?
+**In It, Lee** is a satire-powered comic engine that delivers daily Agile-inspired panels, punchlines, and prophecies. Each day, users receive a comic strip, an oracle message, and an SP Karma score—offering emotional resonance for teams navigating the rituals and absurdities of modern tech work.
 
-A comic-based application delivering daily, Agile-inspired satire, emotional insights, and character-driven humor. It also functions as a tool for team rituals, reflection, and shared cultural critique of tech workspaces.
+---
 
-### 🎯 Why Does This Exist?
+## 🎯 Why Does This Exist?
 
-To offer meaningful daily engagement for teams and individuals in software, product, and design—connecting the emotional, ritual, and absurd layers of Agile culture through storytelling.
+To offer daily engagement and self-aware storytelling for individuals and teams in product, software, and design—connecting the emotional, ritual, and absurd layers of Agile culture through comics, archetypes, and shareable satire.
 
-### 👥 Who Is It For?
+---
+
+## 👥 Who Is It For?
 
 * Software Engineers
 * Product Managers
 * Scrum Masters
 * Designers & QA Testers
-* Agile Coaches / Team Leads
+* Agile Coaches & Team Leads
 
-### 🔧 How It Works
+---
 
-Each day, users receive a comic strip, an oracle message, and an SP Karma score. Optional inputs personalize the experience. Teams can use the product for Slack-integrated rituals, retro bundles, and team mood tracking.
+## 🔧 How It Works
 
-### ✅ Key Benefits
+* Visit the home page to receive the comic, your SP Karma, and an oracle truth
+* Use the `/bless` page to generate personalized sprint blessings
+* Explore `/team` for a Slack-connected team ritual experience
+* Optional inputs (mood, role, ticket) personalize the oracle and messages
 
-* Makes Agile practices emotionally resonant and entertaining
-* Fosters culture, insight, and self-reflection
-* Creates an easy habit-forming loop of humor + ritual
-* Offers tools for teams to reflect and bond asynchronously
+---
+
+## ✅ Key Benefits
+
+* Brings humor and emotional truth into Agile rituals
+* Reinforces team culture and individual reflection
+* Encourages lightweight but daily engagement
+* Enhances retros and standups with shareable tools
 
 ---
 
 ## ✍️ User Stories
 
-### 🧑‍💻 Individual Contributor (IC)
+**Individual Contributor (IC):** “I want a daily comic that captures how Agile work *feels* so I can reflect, laugh, and feel seen.”
 
-"As a developer, I want to receive a daily comic that captures how Agile work *feels*, so I can reflect, laugh, and feel seen without needing to schedule another meeting."
+**Team Lead:** “I want to track our team’s SP Karma and share comics to open retros with emotional honesty.”
 
-### 🧑‍🤝‍🧑 Team Lead
+**Designer/Writer:** “I want to explore comics filtered by theme or character for inspiration about team dynamics.”
 
-"As a team lead, I want to share comics with my team and view our average SP Karma trend, so I can facilitate deeper retro discussions and identify cultural drift."
+**Agile Coach:** “I want to use comic bundles in retros to spark conversations my team actually cares about.”
 
-### 🧑‍🎨 Designer or Writer
-
-"As a creative contributor, I want to browse and search comic archives by theme, so I can feel inspired by emotionally truthful storytelling about team dynamics."
-
-### 🧑‍🏫 Agile Coach
-
-"As an agile coach, I want access to curated sprint ritual bundles that spark conversation and engagement, so I can run better retrospectives that people *actually* care about."
-
-### 🧑‍💼 Enterprise Admin
-
-"As an admin, I want secure Slack integration, team-specific privacy options, and an exportable karma dashboard, so I can deploy this at scale without compromising team autonomy."
+**Enterprise Admin:** “I want Slack integration, privacy toggles, and a karma dashboard for safe scaling.”
 
 ---
 
 ## 🧭 The 5 Planes of UX
 
-### 1. **Strategy (Why)**
+### 1. Strategy
 
-* Goal: Reflect the emotional + mythic side of tech work
-* Audience: Individuals and teams navigating Agile cycles
+* Reflect emotional + mythic side of software life
+* Create daily narrative habit loop
 
-### 2. **Scope (What)**
+### 2. Scope
 
-* Features: Daily comic, SP Karma oracle, personal inputs, Slack sharing, archive, team bundles
+* Features: Comic, oracle, karma score, personalization, team mode, archive
 
-### 3. **Structure (How)**
+### 3. Structure
 
-* Navigation: Daily comic (home), oracle ritual (input), archive, team mode, settings
-* Logic: Ritual flow → Insight → Reflection → Share → Archive
+* Flow: View comic → receive oracle → log karma → share → archive
 
-### 4. **Skeleton (Layout)**
+### 4. Skeleton
 
-* Wireframes for:
+* Pages: Home, Bless (form), Archive (future), Team Ritual, Settings
 
-    * Home Screen
-    * Oracle Mode
-    * Archive
-    * Team Ritual Mode
-    * Settings
+### 5. Surface
 
-### 5. **Surface (Visual Language)**
-
-* Art Direction: Flat-shaded, expressive comics with symbolic references
-* Tone: Honest, poetic, humorous, meta-satirical
-* Accessibility: Emoji + alt text support, clean UI across mobile/web
+* Flat, symbolic comic aesthetic
+* Satirical and poetic UI copy
+* Emoji + accessibility-friendly design
 
 ---
 
-## Core Features
+## 🖼 Core Features
 
-### 🖼 Daily Comic Strip
+### Daily Comic Panel
 
-* One panel per day
-* Stylized, satirical, Agile-themed
-* Pulls from randomized character roles, archetypes, or user input
+* One stylized panel per day
+* Rotates roles/archetypes/themes
 
-### 🔮 SP Karma Oracle
+### SP Karma Oracle
 
-* Text-based *“oracle” prediction or truth bomb* tied to themes like burnout, estimation inflation, emotional refactoring, etc.
-* SP Karma score delivered daily (can go up/down)
-* Optional connection to mood input
+* Daily score (numeric/emoji)
+* Oracle quote (from curated truthbank)
 
-### ✍️ Punchline Engine
+### Punchline Engine
 
-* Taglines or one-liners like:
+* Random or context-aware captions
+* Taglines like: “Not every commit is a confession.”
 
-    * "You thought you pointed the ticket, but the ticket pointed you."
-    * "The sprint ends. The sprint begins."
-    * "Not every ticket needs a solution. Some need a eulogy."
+### Shareability
 
-### 📬 Shareability & Virality
-
-* Comics downloadable and sharable as images
-* “Bless your team” button – sends today’s comic to a team Slack/Discord
-* Webhooks for teams to automate their SP Karma check-in
+* Save/share comic image
+* “Bless My Team” Slack integration (in dev)
 
 ---
 
-## Core Archetypes / Characters
+## 🧙 Characters
 
-* 🙀 **Lee** – the unknowable, cursed legend
-* 🧼 **The Scrub Maiden** – confused for Soap, but spiritually correct
-* 🧽 **Soap Maestro** – polisher of the unpointed
-* 😱 **The Intern** – holder of ancient truths
-* 💼 **The PO** – Product Oracle
-* 🍜 **El. Sukuramu Masuta** – hybrid mythic scrum master
-* 🌀 **The Sprint Whisperer** – knows when sprints never truly end
+* 🙀 **Lee** – The unknowable, cursed estimator
+* 🧼 **The Scrub Maiden** – Scrubs QA, scrubs destiny
+* 🧽 **Soap Maestro** – Refactors with polish
+* 😱 **The Intern** – Inherits all forgotten tech debt
+* 💼 **The PO** – Product Oracle, but also mythologically suspect
+* 🍜 **El Sukuramu Masuta** – Scrum master via divine inheritance
+* 🌀 **The Sprint Whisperer** – Believes no sprint ever truly ends
 
 ---
 
 ## 🏁 The Amazing Sprint (Race) Modules
 
-*“Only one ticket survives.”*
-
 ### 🟩 Leg 1: The Estimation Gauntlet
 
-Teams must guess the SP of legacy tickets based only on cryptic Git history and a Confluence emoji: \[🧼].
+Guess SP of legacy tickets based only on Git logs and Confluence emoji: \[🧼]
 
-### 🟦 Leg 2: Merge or WWJD (What Would Jira Do)
+### 🟦 Leg 2: Merge or WWJD
 
-Must merge a 243-comment PR before lunch or it merges itself onto main, linked to your name and Jira ticket.
+Merge a 243-comment PR or Jira merges it for you… to main… tagged to your name.
 
-### 🟥 Detour: “Scrub Maiden” vs “Soap Maestro” vs “El Sukuramu Masuta”
+### 🟥 Detour: Scrub Maiden vs Soap Maestro vs El Sukuramu Masuta
 
-Choose your chaos:
+Pick a path: QA limbo, UX shine-up, or multilingual sprint diplomacy
 
-* **Scrub Maiden**: Polish 28 tickets stuck in QA limbo. (She still thinks it was Stunt Mason.)
-* **Soap Maestro**: Buff your way through legacy UX feedback from 2019.
-* **El Sukuramu Masuta**: Convince a multilingual, cross-cultural backlog that sprints are real.
+### 🟨 Roadblock: In It, Lee.
 
-### 🟨 Roadblock: “In It, Lee.”
-
-One team member must explain who Lee is, what he meant, and why ticket keys now render upside down.
-Only then may they proceed to Retro Station, where everyone’s past sprint sins are read aloud.
+Explain who Lee is. Why tickets now render upside down. Only then may you retro.
 
 ---
 
-## 💻 Prototype UI Wireframe
+## 💻 Prototype UI Pages
 
-### 1. **Home Screen**
-
-* Daily Comic (centerpiece)
-* SP Karma Score (numerical + emoji)
-* Oracle Reading: 1-liner truth (e.g. "Bless this ticket. It never had a chance.")
-* "Bless My Team" button
-* Share to Slack / Download Comic
-
-### 2. **Oracle Mode (Personal Ritual)**
-
-* Input: Role, Mood, Current Ticket Title (optional)
-* Output: Custom comic + custom punchline
-* Option to save, log, or receive an animated blessing animation
-
-### 3. **Archive Mode**
-
-* View past comics by date, theme, or karma fluctuation
-* Filter by character (Lee, Soap, etc.)
-* Add reaction emoji to each panel
-
-### 4. **Team Ritual Mode**
-
-* Slack integration toggle
-* “Retro Blessing Bundle” (a comic pack for end-of-sprint reflection)
-* Collective karma average for the team
-
-### 5. **Settings / Customization**
-
-* Notification settings for daily drops
-* Visual themes (light mode, cursed dark mode, confluence retro mode)
-* Role affinity (choose primary character or archetype)
+* `/` Home – Comic, oracle, karma
+* `/bless` – Mood/role/ticket → personal blessing
+* `/team` – Team mode teaser + Slack CTA
 
 ---
 
-## Monetization
+## 📦 Dev Stack
 
-* Freemium: Daily comic free, pay for team rituals, retro packs, custom karma scoring
-* Enterprise: Slack integrations, mood dashboards, SPKarma team trends
-* Merch: Posters, mugs, team tarot decks, zines
-
----
-
-## 📦 Dev Track: Phase 1 (Teaser MVP)
-
-### ✅ Stack
-
-* **Framework:** Next.js (13+ with App Router)
-* **Deployment:** Vercel
-* **Styling:** TailwindCSS
-* **Waitlist Backend:** Supabase (auth + database) or Resend + email capture
-* **Pages:**
-
-    * `/` Home (comic preview, oracle message, CTA)
-    * `/archive` Static past panels
-    * `/bless` Oracle ritual form
-    * `/team` Slack-integrated teaser
-
-### 🧱 MVP Components
-
-* Comic display component (random or sample)
-* Oracle quote rotator
-* SP Karma score (static or random emoji number)
-* Input form with email + optional role/mood
-* Share button → saves image, links to Slack share
-
-### 🧪 Bonus (Optional)
-
-* Resend integration for daily drops via email
-* Character filter for archive mode
-* Dark mode toggle (theme setting)
+* **Next.js 13+ (App Router)**
+* **TailwindCSS**
+* **Yarn Berry**
+* **Vercel deployment**
+* Optional: Supabase, Resend, Slack SDK
 
 ---
 
-## ✅ Repo Implementation Plan – Phase 1 Completion
+## 🔨 Repo Plan: Phase 1 (Complete)
 
-### 📁 Core Files to Scaffold
-
-#### `/app/page.tsx`
-
-* Layout: Comic panel + oracle message + karma display + CTA
-* Imports: `ComicPanel`, `OracleMessage`, SP Karma generator
-
-#### `/components/ComicPanel.tsx`
-
-* Static image for now (e.g. `/public/images/sample-comic.png`)
-* Placeholder text under panel for caption/punchline
-
-#### `/components/OracleMessage.tsx`
-
-* Rotates through 5–7 starter oracle truths
-* Can be randomized on load
-
-#### `/lib/oracle.ts`
-
-* Exports an array of strings like:
-
-  ```ts
-  export const oracles = [
-    "You thought you were assigning the ticket, but it was assigning you.",
-    "Not every commit is a confession.",
-    "The backlog remembers.",
-    "SP-89 is still watching you.",
-    "Definition of done: Begin again."
-  ];
-  ```
-
-#### `/pages/bless.tsx`
-
-* Simple form with input: Role, Mood, Current Ticket (optional)
-* Generates a random quote or comic
-
-#### `/pages/team.tsx`
-
-* Placeholder for team blessing mode
-* CTA to Slack integration (future phase)
-
-#### `/public/images/sample-comic.png`
-
-* Include any placeholder artwork or visual
-
-### ✍️ README.md Includes:
-
-* Install + dev instructions
-* Stack summary
-* MVP goal: comic + oracle + karma + waitlist CTA
-* Roadmap: Archive, team ritual mode, personalization
+```
+/app
+  page.tsx             # Daily comic + oracle
+  bless/page.tsx       # Personal blessing form
+  team/page.tsx        # Team ritual teaser
+/components
+  ComicPanel.tsx       # Comic image component
+  OracleMessage.tsx    # Oracle quote rotator
+/lib
+  oracle.ts            # Oracle truthbank
+/public/images
+  sample-comic.png     # Placeholder art
+```
 
 ---
 
-## Next Steps
+## 🛠️ Next Steps
 
-* 🎨 Finalize art style
-* ⚙️ Build comic & punchline engine MVP (manual at first, GPT-assisted)
-* 🛠️ Begin UI design phase based on wireframes
-* 🔁 Prepare teaser landing page
-* 💌 Create mailing list + first 7-day sample run
+* Finalize comic visual system
+* Deploy landing page + waitlist
+* Expand oracle logic + ritual packs
+* Prep Slack + email integrations
+* Build archive + filter view
 
-> *The backlog was never meant to be cleared. It was meant to become legend.*
-
+---
 
 ## 🚀 Getting Started
 
@@ -323,31 +194,8 @@ yarn install
 yarn dev
 ```
 
+Visit `http://localhost:3000` to view the daily comic oracle.
 
-## ⚙️ Tech Stack
+---
 
-- [Next.js 13+](https://nextjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Yarn Berry](https://yarnpkg.com/getting-started/install)
-- Optional: Supabase, Resend, Slack integration
-
-## Project Structure
-app/
-page.tsx               # Home page
-bless/page.tsx         # Ritual input form
-team/page.tsx          # Team blessing CTA
-components/
-ComicPanel.tsx         # Comic display component
-OracleMessage.tsx      # Rotating oracle quote
-lib/
-oracle.ts              # Oracle message list
-public/images/
-sample-comic.png       # Placeholder comic
-
-
-📌 Roadmap
-•	Add comic archive and character filters
-•	Enable Slack team integration
-•	Add Resend/Supabase for daily email drops
-•	Build Retro Bundle comic generator
-•	Expand archetype system (Scrub Maiden, Lee, etc.)
+> *“The sprint ends. The sprint begins. The backlog remembers. Are you in it… Lee?”*
