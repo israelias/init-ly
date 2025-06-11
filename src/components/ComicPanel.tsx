@@ -1,22 +1,27 @@
 'use client';
 
 import Image from 'next/image';
+import { getComicForToday } from "@/lib/comics";
 
-export default function ComicPanel() {
+
+const ComicPanel = () => {
+  // const comic = getComicForToday();
+  const { filename, caption } = getComicForToday();
+
   return (
-    <div className="flex flex-col items-center text-center">
-      <div className="w-full max-w-md mb-4">
-        <Image
-          src="/images/sample-comic.png"
-          alt="Daily Comic Panel"
-          width={800}
-          height={600}
-          className="rounded shadow-lg"
-        />
-      </div>
-      <p className="italic text-sm text-gray-500">
-        “Not every ticket wants closure. Some just want to be seen.”
+    <div className="flex flex-col items-center mt-8">
+      <Image
+        src={`/images/${filename}`}
+        alt="Daily Comic"
+        width={500}
+        height={500}
+        className="rounded shadow-lg"
+      />
+      <p className="mt-4 text-center text-gray-600 dark:text-gray-300 italic">
+        🗯️ {caption}
       </p>
     </div>
   );
-}
+};
+
+export default ComicPanel;
